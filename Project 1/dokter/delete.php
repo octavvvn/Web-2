@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     $stmt->execute([$id]);
 
     // Redirect ke halaman index.php setelah proses penghapusan selesai
-    header("Location: index.php");
+    header("Location: index1.php");
     exit();
 } else {
     echo "Parameter ID tidak ditemukan.";

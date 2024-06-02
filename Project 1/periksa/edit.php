@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
     $sql = "UPDATE periksa SET tanggal = ?, berat = ?, tinggi = ?, tensi = ?, keterangan = ?, pasien_id = ?, dokter_id = ? WHERE id = ?";
     $stmt = $dbh->prepare($sql);
     $stmt->execute($data);
-    echo "<script>window.location.href = 'index.php';</script>";
+    echo "<script>window.location.href = 'index1.php';</script>";
 }
 ?>
 

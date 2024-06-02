@@ -45,7 +45,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="index.php" class="nav-link">
+                            <a href="index1.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Table Pasien</p>
                             </a>

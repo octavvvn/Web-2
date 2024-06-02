@@ -15,7 +15,7 @@ if (isset($_POST["submit"])) {
     $sql = "INSERT INTO dokter (kode, nama, tmp_lahir, tgl_lahir, gender, alamat, unit_kerja_id) VALUES (?,? ,? ,? ,? ,? ,?)";
     $stmt = $dbh->prepare($sql);
     $stmt->execute($data);
-    echo "<script>window.location.href = 'index.php';</script>";
+    echo "<script>window.location.href = 'index1.php';</script>";
 }
 ?>
 

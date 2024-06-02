@@ -55,7 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="card-body">
 
                             <div class="container mt-5">
-                                <h1>Form Pendaftaran IT Club</h1>
                                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                     <h1 class="text-center mb-5">Form Pendaftaran IT Club</h1>
                                     <div class="form-group row">
